@@ -1,3 +1,6 @@
 > Followed instructions from the official guide for installation
 npx create-next-app@latest
 npm run dev
+npm run build
+grep -r "JavaScript Modules</h2>" .next
+> Above command should show single html file proving that even though we are fetching the data using API but it would build it at compile time
